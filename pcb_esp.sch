@@ -490,7 +490,7 @@ Wire Wire Line
 	5500 1550 5500 1500
 Connection ~ 5500 1550
 Wire Wire Line
-	7150 2250 5500 2250
+	5500 2250 7150 2250
 Wire Wire Line
 	6800 2250 6800 2000
 Wire Wire Line
@@ -593,10 +593,10 @@ U 1 1 596E62AC
 P 9900 5700
 F 0 "J1" H 9981 5742 50  0000 L CNN
 F 1 "CONN_01X07" H 9981 5649 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 9900 5700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x07_Pitch2.54mm" H 9900 5700 50  0001 C CNN
 F 3 "" H 9900 5700 50  0001 C CNN
 	1    9900 5700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9700 5400 9400 5400
@@ -757,7 +757,7 @@ $EndComp
 Wire Wire Line
 	7150 1550 7150 1700
 Wire Wire Line
-	7150 2000 7150 2250
+	7150 2250 7150 2000
 Connection ~ 6800 2250
 Wire Wire Line
 	5700 3050 5000 3050
@@ -1101,23 +1101,23 @@ gpio5
 Text Notes 2150 6250 0    120  ~ 24
 Buttons
 $Comp
-L S8050 Q1
+L BC817 Q1
 U 1 1 596EFC1D
 P 1950 4000
 F 0 "Q1" H 2141 4047 50  0000 L CNN
 F 1 "S8050" H 2141 3954 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2150 3925 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2150 3925 50  0001 L CIN
 F 3 "" H 1950 4000 50  0001 L CNN
 	1    1950 4000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L S8050 Q2
+L BC817 Q2
 U 1 1 596EFD25
 P 1950 4700
 F 0 "Q2" H 2141 4653 50  0000 L CNN
 F 1 "S8050" H 2141 4746 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2150 4625 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2150 4625 50  0001 L CIN
 F 3 "" H 1950 4700 50  0001 L CNN
 	1    1950 4700
 	-1   0    0    1   
